@@ -22,7 +22,7 @@ function reducer(state, action) {
     case "RECEIVE_MESSAGE":
       return {
         ...state,
-        topic: [
+        [topic]: [
           ...state[topic],
           {
             from,
@@ -44,8 +44,6 @@ function sendChatMsg(value) {
 
 export default function Store(props) {
   const [allChats, dispatch] = React.useReducer(reducer, initialState);
-
-  console.log(allChats);
 
   if (!socket) {
     socket = io(":3001");
