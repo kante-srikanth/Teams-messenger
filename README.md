@@ -19,5 +19,5 @@ Teams messenger is a React application where users can chat in groups
 ### Demo
 After server is initiated, open the react application in two clients. In my case i have opened in chrome and firefox. Following chat conversation[gif] is related to group chats.
 
-![](https://github.com/kante-srikanth/Teams-messenger/blob/master/Teams_messenger.gif)
+![](Teams_messenger.gif)
 
